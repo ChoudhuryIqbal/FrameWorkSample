@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="1" total="2" passed="1">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Default suite" duration-ms="50" started-at="2017-04-20T03:57:25Z" finished-at="2017-04-20T03:57:25Z">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="50" started-at="2017-04-20T03:57:25Z" finished-at="2017-04-20T03:57:25Z">
-      <class name="pracTest.Practice">
-        <test-method status="PASS" signature="myName()[pri:0, instance:pracTest.Practice@234bef66]" name="myName" duration-ms="21" started-at="2017-04-19T20:57:25Z" finished-at="2017-04-19T20:57:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myName -->
-        <test-method status="FAIL" signature="myName2()[pri:0, instance:pracTest.Practice@234bef66]" name="myName2" duration-ms="6" started-at="2017-04-19T20:57:25Z" finished-at="2017-04-19T20:57:25Z">
-          <exception class="java.lang.AssertionError">
-            <message>
+	<reporter-output>
+	</reporter-output>
+	<suite name="Default suite" duration-ms="50" started-at="2017-04-20T03:57:25Z"
+		finished-at="2017-04-20T03:57:25Z">
+		<groups>
+		</groups>
+		<test name="Default test" duration-ms="50" started-at="2017-04-20T03:57:25Z"
+			finished-at="2017-04-20T03:57:25Z">
+			<class name="pracTest.Practice">
+				<test-method status="PASS"
+					signature="myName()[pri:0, instance:pracTest.Practice@234bef66]"
+					name="myName" duration-ms="21" started-at="2017-04-19T20:57:25Z"
+					finished-at="2017-04-19T20:57:25Z">
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- myName -->
+				<test-method status="FAIL"
+					signature="myName2()[pri:0, instance:pracTest.Practice@234bef66]"
+					name="myName2" duration-ms="6" started-at="2017-04-19T20:57:25Z"
+					finished-at="2017-04-19T20:57:25Z">
+					<exception class="java.lang.AssertionError">
+						<message>
               <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
+						</message>
+						<full-stacktrace>
               <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:494)
@@ -48,12 +56,12 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myName2 -->
-      </class> <!-- pracTest.Practice -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+						</full-stacktrace>
+					</exception> <!-- java.lang.AssertionError -->
+					<reporter-output>
+					</reporter-output>
+				</test-method> <!-- myName2 -->
+			</class> <!-- pracTest.Practice -->
+		</test> <!-- Default test -->
+	</suite> <!-- Default suite -->
 </testng-results>
