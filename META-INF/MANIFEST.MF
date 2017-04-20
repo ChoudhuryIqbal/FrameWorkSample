@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: frame-sample
+Bundle-SymbolicName: frame-sample
+Bundle-Version: 1.0.0.qualifier
